@@ -46,12 +46,12 @@ public class CalculatorTest {
 	}
 	@Test
 	public void testMultiply() {
-		int a = 4;
-		int b = 5;
+		int a = 5;
+		int b = 6;
 			Calculator cal = new Calculator();
 			int actual = cal.multiply(a, b);
 			
-			int expected = 20;
+			int expected = 30;
 			assertEquals (expected, actual);
 	}
 	@Test
